@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header #trilhaDigital{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 20px;
+    color: #00264d;
+    font-weight: bold;
+}
+
+.botoesNav a {
+    margin-left: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background: #2ecc71; 
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botoesNav a:hover {
+    background: #27ae60;
+}
+
+#banner {
+    width: 100%;
+    height: 220px;          
+    overflow: hidden;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;  
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     
+    border-radius: 8px;
+}
+
+main {
+    padding: 40px;
+    background: #070236; 
+    min-height: 100vh;
+}
+
+.cursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1200px;   
+    margin: 0 auto;     
+    padding: 0 20px; 
+}
+
+.cursos div {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+
+.cursos div:hover {
+    transform: translateY(-5px);
+}
+
+.cursos img {
+    width: 150px;
+    height: 150px;         
+    object-fit: cover;      
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cursos p {
+    margin: 8px 0;
+    color: #333;
+}
+
+.cursos button {
+    background: #3DA454;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.cursos button:hover {
+    background: #27ae60;
+}
+
+#barraProdutos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #27ae60;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#barraProdutos h2 {
+    font-size: 20px;
+    color: #00264d;
+}
+
+#barraProdutos input {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#login {
+     background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  margin: 50px auto; 
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  
+}
+#login input {
+        border: 1px solid #ccc;
+        padding: 8px;
+        margin: 10px;
+    }
+#login button{
+    width: 80%;
+  height: 40px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.cursosFeitos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.cursosFeitos > div {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.cursosFeitos img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cursosFeitos button {
+    padding: 8px 15px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+
+.curso-detalhe {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    margin: 20px auto;
+    width: 90%;
+}
+
+.curso-detalhe p {
+    color: #000;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.curso-detalhe img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#pythonDetalhes button {
+    display: block;
+    width: 100%;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
+#pythonDetalhes{
+    padding: 40px;
+    background-color: #f4f4f4;  
+    min-height: 100vh;
+}
+
+
+#Pagamentos {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+#Pagamentos h1 {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #222;
+}
+
+
+#Pagamentos div {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    margin: 15px 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+#Pagamentos img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+
+#Pagamentos h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+}
+#linkcriarConta {
+    
+     display: block;
+    margin-top: 15px;
+    color: #27ae60; 
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    
+} 
+#barraCompleto, 
+#barraFeita {
+    width: 100%;
+    max-width: 600px;
+    height: 25px;
+    background: #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 20px auto;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#barraCompleto::before, 
+#barraFeita::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(90deg, #27ae60, #2ecc71);
+    border-radius: 12px 0 0 12px;
+}
