@@ -151,6 +151,9 @@ main {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   
 }
+a{
+    text-decoration: none;
+}
 #login input {
         border: 1px solid #ccc;
         padding: 8px;
